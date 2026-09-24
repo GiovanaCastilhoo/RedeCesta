@@ -1,6 +1,10 @@
 .vs/
+<<<<<<< HEAD
 **/.vs/
 bin/
 **/bin/
 obj/
 **/obj/
+=======
+
+>>>>>>> 3f261da (feat: Create backend application)
