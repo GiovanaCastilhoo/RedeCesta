@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="RedeCesta.Views.Login.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="{StaticResource White}"
+    Title="Login">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Label
+            Text="Login"
+            FontSize="32"
+            HorizontalOptions="Center" />
+
+        <Border>
+            <Entry
+                Placeholder="E-mail"
+                Keyboard="Email"
+                Text="{Binding Email}" />
+        </Border>
+
+        <Border>
+            <Entry
+                 Placeholder="Senha"
+                 IsPassword="True"
+                 Text="{Binding Password}" />
+        </Border>
+
+        <Button
+            Text="Entrar" />
+
+        <Button
+            Text="Criar conta"
+            BackgroundColor="Transparent" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

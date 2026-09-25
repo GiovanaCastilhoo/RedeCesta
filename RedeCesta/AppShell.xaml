@@ -3,12 +3,14 @@
     x:Class="RedeCesta.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:RedeCesta"
-    Title="RedeCesta">
+    xmlns:local="clr-namespace:RedeCesta.Views.Login"
+    Title="RedeCesta"
+	BackgroundColor="White"
+	>
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
 
 </Shell>
